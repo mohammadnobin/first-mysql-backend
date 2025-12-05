@@ -22,7 +22,7 @@ const db = mysql.createConnection({
   }
 });
 
-// Connect to database and initialize tables
+
 // Connect to database and initialize tables
 db.connect((err) => {
   if (err) {
